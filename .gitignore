@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.DS_Store
+venv/
+.venv/
+
+# Debug/deployment scaffolding — never commit
+*.ps1
+*.vbs
+*.bat
+*_output.txt
+*_log.txt
+*_result.json
+*_preview.html
+check_*.py
+fetch_report.py
+
+# Runtime state — persisted via Railway Volume, not source control
+trend_memory.json
+
+# UI preview/dev artifacts
+index.html
+preview_*.html
